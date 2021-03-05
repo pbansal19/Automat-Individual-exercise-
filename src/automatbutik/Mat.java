@@ -20,8 +20,8 @@ public class Mat extends Automat implements Handla {
     }
 
     
-    //Implements method from interface class    
-    //This method must be included in the Class because implementation is unique to this class
+    //Implement both methods from interface class    
+    //These methods must be included in the Class because implementation is unique to this class
     @Override
     public String Use() {              
         return "Product is to eat. Have it and Enjoy!";

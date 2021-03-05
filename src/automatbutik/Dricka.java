@@ -16,8 +16,8 @@ public class Dricka extends Automat implements Handla {
          super (productid, name, description, cost);
     }
 
-    //Implements method from interface class    
-    //This method must be included in the Class because implementation is unique to this class
+    //Implement both methods from interface class    
+    //These methods must be included in the Class because implementation is unique to this class
     @Override
     public String Use() {        
          return "Product for drinking. Drink it and enjoy!";
